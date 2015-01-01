@@ -1,5 +1,6 @@
 {
     "dependencies": {
+    	"RavenDB.Embedded":"3.0.3559-Unstable"
     },
     "commands": {
     },

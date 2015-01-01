@@ -7,7 +7,16 @@ namespace WebApplication1
     {
         public HomeModule()
         {
-            Get["/"] = _ => Consts.HelloMessage;
+            Get["/"] = _ => {
+            	//var i = Store.Instance;
+
+            	//using(var session = Store.Instance.DocStore.OpenSession())
+            	{
+
+            	}
+
+            	return Consts.HelloMessage;
+            };
         }
     }
 }
