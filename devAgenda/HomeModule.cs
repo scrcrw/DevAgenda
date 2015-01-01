@@ -1,12 +1,13 @@
 namespace WebApplication1
 {
     using Nancy;
-    
+    using DevAgenda.BLL;
+
     public class HomeModule : NancyModule
     {
         public HomeModule()
         {
-            Get["/"] = _ => "Hello World";
+            Get["/"] = _ => Consts.HelloMessage;
         }
     }
 }
