@@ -1,4 +1,4 @@
-namespace WebApplication1
+namespace DevAgenda
 {
     using Nancy;
     using DevAgenda.BLL;
@@ -8,9 +8,7 @@ namespace WebApplication1
         public HomeModule()
         {
             Get["/"] = _ => {
-            	//var i = Store.Instance;
-
-            	//using(var session = Store.Instance.DocStore.OpenSession())
+            	using(var session = Store.Instance.DocStore.OpenSession())
             	{
 
             	}
