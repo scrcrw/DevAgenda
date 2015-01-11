@@ -13,7 +13,7 @@ namespace DevAgenda
 
             	}
 
-            	return Consts.HelloMessage;
+            	return View["index"];
             };
         }
     }
